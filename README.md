@@ -41,7 +41,7 @@ Create a component for editing resume experience entries, similar to modern resu
 
 ## Provided Resources
 In the starter repository:
-* `sample-experience.json` - Sample experience entries data
+* `sample_resume.json` - Sample experience entries data
 * TypeScript interfaces for the data structure
 * Basic project setup with Next.js, TypeScript, and TailwindCSS
 
@@ -70,20 +70,7 @@ In the starter repository:
 * You have 2 days to complete this task
 * We expect it would take approximately 6-8 hours of focused work
 
-## Sample Data Structure
-```typescript
-interface ExperienceEntry {
-  id: string;
-  company: string;
-  title: string;
-  location: string;
-  country: string;
-  startDate: string;
-  endDate: string | null;
-  currentlyWorking: boolean;
-  description: string; // Can contain HTML for rich text
-}
-```
+
 
 ## Notes
 * You can use libraries like Slate.js, TipTap, or Draft.js for the rich text editor
